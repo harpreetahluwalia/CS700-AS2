@@ -1,0 +1,17 @@
+# depslib dependency file v1.0
+1634189169 source:e:\c++\codeblocks code\as2 sec 1\calctime.cpp
+	<bits/stdc++.h>
+	<algorithm>
+	<stdlib.h>
+	<iostream>
+	<chrono>
+
+1634190206 source:e:\c++\codeblocks code\as2 sec 1\main.cpp
+	<iostream>
+	<chrono>
+	<bits/stdc++.h>
+	"calcTime.h"
+
+1634189204 e:\c++\codeblocks code\as2 sec 1\calctime.h
+	<iostream>
+
