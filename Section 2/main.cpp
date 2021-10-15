@@ -31,11 +31,15 @@ void test(int input,string testCase,int expectedOutput, string func){
 
 
 }
+
 int main()
 {
 
 
-    cout<<"\n********************************* Assignment 2 - Section 2 **************************************\n";
+    cout<<"\n********************************* Assignment 2 - Section 2 **************************************\n\n";
+    cout<<"Here we will test sin(x) and cos(x) function from sin_cos.cpp through various test cases below. \n\n";
+    cout<<"-----------------------------------------------------------------------------------------------------\n";
+    cout<<"\nSin function test cases\n\n";
     // Test Case 2
     int input;
     int expectedOutput;
@@ -138,8 +142,8 @@ int main()
 
 
     // Testing cosine
-    cout<<"***********************************************************";
-    cout<<"\ncosine test cases";
+    cout<<"***************************************************************************\n";
+    cout<<"\nCosine Function test cases\n\n";
 
 
     input = -30;
