@@ -16,6 +16,5 @@ using namespace std;
  * @param noOfArr It represents no. of arrays that we need to process.
  * @param str It represents which order of array (random, inverse or ascending) we need to process.
 */
-
 double *calcTime(long noOfElements, int noOfArr, string str);
 

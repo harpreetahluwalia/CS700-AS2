@@ -32,9 +32,12 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
+		<Unit filename="calcTime.h" />
 		<Unit filename="main.cpp" />
 		<Unit filename="sin_cos.cpp" />
 		<Unit filename="sin_cos.h" />
+		<Unit filename="test.cpp" />
+		<Unit filename="test.h" />
 		<Extensions>
 			<lib_finder disable_auto="1" />
 		</Extensions>

@@ -8,6 +8,7 @@
 
 /**
 
+
 Program that allows you to examine the effects of array size and initial data order
 by measuring the time of the program when your favorite sort operates on an array of integers.
 
@@ -102,6 +103,8 @@ int main(){
         }
     cout << "\n";
    }
+
+   getchar();
     return 0;
 }
 
