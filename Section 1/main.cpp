@@ -107,9 +107,9 @@ int main(){
         cout<<"\n";
         }
     cout << "\n";
-   }
+    }
 
-   getchar();
+    getchar();
     return 0;
 }
 

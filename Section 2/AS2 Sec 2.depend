@@ -1,7 +1,7 @@
 # depslib dependency file v1.0
 1634238439 source:e:\c++\codeblocks code\as2 sec 2\sin_cos.cpp
 
-1634265573 source:e:\c++\codeblocks code\assignment 2\section 2\main.cpp
+1634266255 source:e:\c++\codeblocks code\assignment 2\section 2\main.cpp
 	<iostream>
 	<iomanip>
 	"sin_cos.h"

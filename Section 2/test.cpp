@@ -1,7 +1,7 @@
 /**
  *  @file   test.h
  *  @author Harpreet Singh
- *  @brief  It includes declaration of test() method which calculates actual output and matches with expected outputs for test case and prints the results.
+ *  @brief  It includes implementation of test() method which calculates actual output and matches with expected outputs for test case and prints the results.
  *  @date   12/10/2021
  ***********************************************/
 
