@@ -138,18 +138,94 @@ int main()
 
 
     // Testing cosine
+    cout<<"***********************************************************";
+    cout<<"\ncosine test cases";
 
 
-
-    input = 45;
+    input = -30;
     func = "cos";
-    testCase = "input > 180";
-    expectedOutput = 7071;
+    testCase = "input < 0";
+    expectedOutput = 8660;
 
     cout<<" Test case 10 :\n";
     test(input,testCase,expectedOutput,func);
 
 
+
+    input = 0;
+    func = "cos";
+    testCase = "input = 0";
+    expectedOutput = 10000;
+
+    cout<<" Test case 11 :\n";
+    test(input,testCase,expectedOutput,func);
+
+
+
+    input = 30;
+    func = "cos";
+    testCase = "input >= 0 and input <= 45";
+    expectedOutput = 8660;
+
+    cout<<" Test case 12 :\n";
+    test(input,testCase,expectedOutput,func);
+
+
+
+
+    input = 45;
+    func = "cos";
+    testCase = "input = 45";
+    expectedOutput = 7071;
+
+    cout<<" Test case 13 :\n";
+    test(input,testCase,expectedOutput,func);
+
+
+
+    input = 80;
+    func = "cos";
+    testCase = "input >= 45 and input <= 90";
+    expectedOutput = 1736;
+
+    cout<<" Test case 14 :\n";
+    test(input,testCase,expectedOutput,func);
+
+
+    input = 90;
+    func = "cos";
+    testCase = "input = 90";
+    expectedOutput = 0;
+
+    cout<<" Test case 15 :\n";
+    test(input,testCase,expectedOutput,func);
+
+
+    input = 130;
+    func = "cos";
+    testCase = "input >= 90 and input <= 180";
+    expectedOutput = -6428;
+
+    cout<<" Test case 16 :\n";
+    test(input,testCase,expectedOutput,func);
+
+
+    input = 180;
+    func = "cos";
+    testCase = "input = 180";
+    expectedOutput = -10000;
+
+    cout<<" Test case 17 :\n";
+    test(input,testCase,expectedOutput,func);
+
+
+    input = 230;
+    func = "cos";
+    testCase = "input >= 180";
+    expectedOutput = -6428;
+
+    cout<<" Test case 18 :\n";
+    test(input,testCase,expectedOutput,func);
 
 
 

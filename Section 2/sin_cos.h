@@ -1,8 +1,8 @@
-#ifndef SIN_COS_H_INCLUDED
-#define SIN_COS_H_INCLUDED
+//#ifndef SIN_COS_H_INCLUDED
+//#define SIN_COS_H_INCLUDED
 
-int sin(int x);
-int cos(int x);
+int sin(int);
+int cos(int);
 
 
-#endif // SIN_COS_H_INCLUDED
+//#endif // SIN_COS_H_INCLUDED

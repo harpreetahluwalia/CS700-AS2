@@ -4,6 +4,7 @@
     ten-thousandths. For example, a result of 7071 represents
     7071e-4 or 0.7071.
 */
+//#include "sin_cos.h"
 
 // Forward declarations
 int sin0to45(int);
