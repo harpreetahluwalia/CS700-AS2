@@ -33,7 +33,7 @@ test cases & screenshots.pdf	Document containting screenshots and explanation of
 
 Doxygen documentation in HTML file	/html/index.html
 Screenshots of the console output	/Screenshots
-exe file for the program.		/debug/AS2 Sec 1.exe
+exe file for the program.		/debug/AS2 Sec 2.exe
 
 *********************************************************************************************************************************************
 

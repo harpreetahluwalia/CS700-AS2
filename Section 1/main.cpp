@@ -109,6 +109,7 @@ int main(){
     cout << "\n";
     }
 
+    cout<<"Press enter to exit. ";
     getchar();
     return 0;
 }
