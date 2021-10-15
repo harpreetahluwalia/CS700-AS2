@@ -10,6 +10,10 @@
 
 Functionality : \n
 
+ @mainpage Section 2
+ @author Harpreet Singh
+ @date   12/10/2021
+
 Program will perform white-box test for a program that computes the sine and cosine
 functions in a specialized manner. It will test the function sin(int x) and cos(int x) functions from sin_cos.cpp file through various test cases.
 In sin(int x) function we have multiple conditional statements thus we perform test cases accordingly and test all the branches and statements of these function
@@ -30,7 +34,11 @@ In sin(int x) function we have multiple conditional statements thus we perform t
 using namespace std;
 
 
-
+/**
+ * Module : main
+ * @author : Harpreet Singh
+ * @date : 12/10/2021
+*/
 int main()
 {
     cout<<"\n********************************* Assignment 2 - Section 2 **************************************\n\n";
@@ -44,7 +52,7 @@ int main()
     string func;
     string testCase;
 
-    /// Test Case 1
+    // Test Case 1
 
     input = -15;                        // giving input angle for 1st test case.
     func = "sin";                          // function to be tested is sin
@@ -55,7 +63,7 @@ int main()
     test(input,testCase,expectedOutput,func);       // calling test() function from test.h with all given parameters.
 
     /*******************************/
-    /// Test Case 2
+    // Test Case 2
 
     input = 0;
     func = "sin";
@@ -66,7 +74,7 @@ int main()
     test(input,testCase,expectedOutput,func);
 
     /*******************************/
-    /// Test Case 3
+    // Test Case 3
 
     input = 40;
     func = "sin";
@@ -77,7 +85,7 @@ int main()
     test(input,testCase,expectedOutput,func);
 
     /*******************************/
-    /// Test Case 4
+    // Test Case 4
 
     input = 45;
     func = "sin";
@@ -88,7 +96,7 @@ int main()
     test(input,testCase,expectedOutput,func);
 
     /*******************************/
-    /// Test Case 5
+    // Test Case 5
 
     input = 60;
     func = "sin";
@@ -99,7 +107,7 @@ int main()
     test(input,testCase,expectedOutput,func);
 
     /*******************************/
-    /// Test Case 6
+    // Test Case 6
 
     input = 90;
     func = "sin";
@@ -110,7 +118,7 @@ int main()
     test(input,testCase,expectedOutput,func);
 
     /*******************************/
-    /// Test Case 7
+    // Test Case 7
 
 
     input = 145;
@@ -123,7 +131,7 @@ int main()
 
 
     /*******************************/
-    /// Test Case 8
+    // Test Case 8
 
     input = 180;
     func = "sin";
@@ -134,7 +142,7 @@ int main()
     test(input,testCase,expectedOutput,func);
 
     /*******************************/
-    /// Test Case 9
+    // Test Case 9
 
     input = 220;
     func = "sin";
@@ -146,13 +154,13 @@ int main()
 
     /***********************************************/
 
-    /// Testing cosine function
+    // Testing cosine function
 
     cout<<"***************************************************************************\n";
     cout<<"\nCosine Function test cases\n\n";
 
     /*******************************/
-    /// Test Case 10
+    // Test Case 10
 
     input = -30;
     func = "cos";
@@ -163,7 +171,7 @@ int main()
     test(input,testCase,expectedOutput,func);
 
     /*******************************/
-    /// Test Case 11
+    // Test Case 11
 
     input = 0;
     func = "cos";
@@ -174,7 +182,7 @@ int main()
     test(input,testCase,expectedOutput,func);
 
     /*******************************/
-    /// Test Case 12
+    // Test Case 12
 
     input = 30;
     func = "cos";
@@ -185,7 +193,7 @@ int main()
     test(input,testCase,expectedOutput,func);
 
     /*******************************/
-    /// Test Case 13
+    // Test Case 13
 
     input = 45;
     func = "cos";
@@ -196,7 +204,7 @@ int main()
     test(input,testCase,expectedOutput,func);
 
     /*******************************/
-    /// Test Case 14
+    // Test Case 14
 
     input = 80;
     func = "cos";
@@ -207,7 +215,7 @@ int main()
     test(input,testCase,expectedOutput,func);
 
     /*******************************/
-    /// Test Case 15
+    // Test Case 15
 
     input = 90;
     func = "cos";
@@ -218,7 +226,7 @@ int main()
     test(input,testCase,expectedOutput,func);
 
     /*******************************/
-    /// Test Case 16
+    // Test Case 16
 
     input = 130;
     func = "cos";
@@ -229,7 +237,7 @@ int main()
     test(input,testCase,expectedOutput,func);
 
     /*******************************/
-    /// Test Case 17
+    // Test Case 17
 
     input = 180;
     func = "cos";
@@ -240,7 +248,7 @@ int main()
     test(input,testCase,expectedOutput,func);
 
     /*******************************/
-    /// Test Case 18
+    // Test Case 18
 
     input = 230;
     func = "cos";

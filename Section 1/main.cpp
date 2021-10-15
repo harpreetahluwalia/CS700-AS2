@@ -7,9 +7,14 @@
  ***********************************************/
 
 /**
+@mainpage Section 1
+
+ @author Harpreet Singh
+ @date   10/10/2021
 
 
-Program that allows you to examine the effects of array size and initial data order
+
+Program allows you to examine the effects of array size and initial data order
 by measuring the time of the program when your favorite sort operates on an array of integers.
 
 We will tests 10 arrays each time with three different array sizes (n =100,000, n =1,000,000, and n
